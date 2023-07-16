@@ -1,2 +1,2 @@
 #!/bin/bash -eu
-sh ~/stable-diffusion-webui/stable-diffusion-webui/webui.sh --xformers
+sh ~/stable-diffusion-webui/webui.sh --xformers
