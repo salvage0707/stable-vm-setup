@@ -23,7 +23,7 @@ ln -nfs /usr/bin/gcc-12 /usr/bin/gcc >> $log 2>&1
 python3 install_gpu_driver.py  >> $log 2>&1
 
 echo "CUDAのセットアップします"
-sudo apt install --no-install-recommends google-perftools
+sudo apt install -y --no-install-recommends google-perftools
 
 echo "pythonのセットアップします"
 apt -y install python3-venv python3-pip >> $log 2>&1
